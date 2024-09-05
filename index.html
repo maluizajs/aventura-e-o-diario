@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do diario perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="meu diario.jpg" alt="">
+            <p>Você foi convocado para a busca do diario perdido da família real</p>
+            <button class="btn-proximo" data-proximo="1">Palacio</button>
+            <button class="btn-proximo" data-proximo="2">Cafeteria</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você entra no palacio e ve uma porta</p>
+            <button class="btn-proximo" data-proximo="3">Explorar</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>A garçonete te olha estranho</p>
+            <button class="btn-proximo" data-proximo="5">começa a fazer perguntas a ela</button>
+            <button class="btn-proximo" data-proximo="6">não se importa</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao entrar a princesa te manda sair do quarto dela</p>
+            <button class="btn-proximo" data-proximo="7">Decide ir a cafeteria</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="voltando para casa.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você fica decepsionado com a princesa, pois falhou</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Depois de conversar com a garçonete, você pergunta se ela confessa o crime</p>
+            <button class="btn-proximo" data-proximo="7">deseja perguntar?</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Depois de perguntar, ela fica mais estranha</p>
+            <button class="btn-proximo" data-proximo="8">fazer mais perguntas</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ela se recusa, porém no final ela volta atrás</p>
+            <button class="btn-proximo" data-proximo="9">continuar ali</button>
+            <button class="btn-proximo" data-proximo="10">ir embora</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Ela confessa que roubou o diario, porque nele haviam receitas e com elas abriu a cafeteria</p>
+            <button class="btn-proximo" data-proximo="7">Parabéns, você conseguiu.</button>
+        </div>
